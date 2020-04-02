@@ -7,32 +7,78 @@ body {
   sans-serif; 
   font-size: 20px;
   color: #444;
-  text-align: center;
   line-height: 1.5;
+  letter-spacing: .1em;
+}
+
+h1, h2, h3, h4{
+  line-height: 1.25;
+}
+
+h2, h3{
+  font-size: 1.5rem;
+}
+
+p{
+  font-size: 1rem; 
+}
+
+header{
+  padding: 6rem 2rem 2rem 2rem;
+  text-align: center;
+}
+.circle{
+  border: darkgrey solid 1em;
+  border-radius: 50%;
+}
+
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 2rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer {
-  padding: 1% 0;
-  background-color: #aaa;
-}
-
-header {
-  padding: 12% 0;
+  font-size: .8rem; 
+  padding-left: 1rem;
+  color: rgb(170, 170, 170);
+  /* background-color: #aaa; */
 }
 
 section {
   min-height: 200px;
-  padding: 6% 0;
-  background-color: #bbb;
+  padding: 4% 0;
+  /* background-color: #bbb; */
 }
 
 section:nth-child(even) {
-  background-color: #ddd;
+  /* background-color: #ddd; */
 }
 
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-link{
+  text-decoration: none;
+  color: black;
+  width: 160px;
+}
 
 .tech-icon {
   height: 1.7em;
+}
+
+.middle{
+  vertical-align: middle;
 }
 
 nav {
@@ -46,6 +92,7 @@ nav {
   z-index: 10;
   overflow: hidden;
   background-color: #333;
+  letter-spacing: .2em;
 }
 
 .links {
@@ -78,11 +125,32 @@ nav a.icon {
   text-decoration: none;
   background-color: #EEEEEE;
   color: #333333;
-  padding: 2px 6px 2px 6px;
+  padding: 2px;
   border-top: 1px solid #CCCCCC;
   border-right: 1px solid #333333;
   border-bottom: 1px solid #333333;
   border-left: 1px solid #CCCCCC;
+  text-align: center;
+  font-size: 1rem; 
+  margin: .6rem;
+  min-width: 120px;
+}
+
+.tech{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center ;
+}
+
+.resize{
+  width: 100%;
+  height: auto;
 }
 
 @media (min-width: 600px) {
