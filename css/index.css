@@ -16,19 +16,6 @@ footer {
   background-color: #aaa;
 }
 
-nav {
-  text-align: left;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 10;
-  overflow: hidden;
-  background-color: #333;
-}
-
-
-
 header {
   padding: 12% 0;
 }
@@ -48,10 +35,29 @@ section:nth-child(even) {
   height: 1.7em;
 }
 
-nav #myLinks {
+nav {
+  text-align: left;
+  position: fixed;
+  display: flex;
+  flex-direction:column;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.links {
   display: none;
   list-style-type:none;
+}
+
+.links.open{
+  display: flex;
+  flex-direction:column;
   padding-left: 0;
+  margin:5px;
 }
 
 nav a {
@@ -59,12 +65,10 @@ nav a {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 18px;
-  display: block;
 }
 
 nav a.icon {
   background: black;
-  display: block;
   position: absolute;
   right: 0;
   top: 0;
@@ -81,3 +85,28 @@ nav a.icon {
   border-left: 1px solid #CCCCCC;
 }
 
+@media (min-width: 600px) {
+  nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 12px;
+  }
+
+  #myLinks{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    justify-self: flex-end;
+    margin:0;
+  }
+
+  nav a.icon {display: none;}
+
+  .active{
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
