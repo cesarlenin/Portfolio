@@ -73,6 +73,50 @@ section {
 
 .middle{vertical-align: middle;}
 
+.imgContainer{
+  position: relative;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.viewProjectHover {
+  opacity: 0;
+  color: white;
+  background-color: rgba(6, 103, 38, 0.3);
+  font-size: 2em;
+  position: absolute;
+  top: 50%;
+  margin:0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  text-align: center;
+  left: 0;
+  right: 0;
+}
+
+.imgContainer:hover .viewProjectHover {
+  opacity: 1;
+}
+
+.imgContainer:hover .image {
+  filter: grayscale(100%) blur(2px);
+}
+
+
+.image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  max-width: 800px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+
 nav {
   text-align: left;
   position: fixed;
@@ -152,12 +196,6 @@ nav button.icon {
   justify-content: center ;
 }
 
-.resize{
-  width: 100%;
-  max-width: 600px;
-  height: auto;
-}
-
 @media (min-width: 640px) {
   nav{
     display: flex;
@@ -199,7 +237,7 @@ nav button.icon {
     flex-direction: column;
   }
 
-  .img{align-self: center;}
+  /* .img {align-self: center;} */
 
   .buttons{align-self: flex-start}
 
