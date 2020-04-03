@@ -23,17 +23,17 @@ function aboutMeTemplate () {
     <h3>Contact</h3>
     <div class="contact-links">
     <a class="contact-link" href="https://www.linkedin.com/in/cesar-lenin-morales-8a8648a0/" target="_blank">
-      <i class="fa fa-fw fa-2x fa-linkedin-square middle" ></i>
+      <i class="fa fa-fw fa-2x fa-linkedin middle" ></i>
       <span>LinkedIn</span>  
     </a> 
 
     <a class="contact-link" href="https://gist.github.com/cesarlenin" target="_blank">
-      <i class="fa fa-fw fa-2x fa-github-square middle"></i>
+      <i class="fa fa-fw fa-2x fa-github middle"></i>
       <span>GitHub</span>  
     </a> 
 
     <a class="contact-link" href="mailto:cesarlenin2@live.com" target="_blank">
-      <i class="fa fa-fw fa-2x fa-envelope-square middle"></i>
+      <i class="fa fa-fw fa-2x fa-envelope middle"></i>
       <span>Email</span>  
     </a>
     </div>
