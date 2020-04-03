@@ -92,7 +92,7 @@ function projectsTemplate () {
 }
 
 function handleNav(){
-  $('nav').on('click','.icon', function (event){
+  $( '.icon').click(function(event) {
     event.preventDefault();
     closeNav();
   });
@@ -108,7 +108,7 @@ function closeNav(){
 }
 
 function handleView(){
-  $('nav').on('click','.home', function (event){
+  $('nav').on('click','.about', function (event){
     event.preventDefault();
     let view= 1;
     closeNav();
