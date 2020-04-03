@@ -22,7 +22,7 @@ function aboutMeTemplate () {
   <section class="contact">
     <h3>Contact</h3>
     <div class="contact-links">
-    <a class="contact-link" href="https://gist.github.com/cesarlenin" target="_blank">
+    <a class="contact-link" href="https://www.linkedin.com/in/cesar-lenin-morales-8a8648a0/" target="_blank">
       <i class="fa fa-fw fa-2x fa-linkedin-square middle" ></i>
       <span>LinkedIn</span>  
     </a> 
