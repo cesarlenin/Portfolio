@@ -224,5 +224,9 @@ nav button.icon i{
     width: 160px;
     margin: 2px;
   }
-
+  main{
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  }
 }
