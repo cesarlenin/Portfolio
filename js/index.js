@@ -5,7 +5,7 @@ function aboutMeTemplate () {
     <img class="circle" src="img/myPic.jpg" alt="Image of Cesar Morales">
     <h1>Cesar Lenin Morales</h1>
     <h2>I’m currently a student 
-      <br>on the Software Engineering Bootcamp at Thinkful.</h2>
+      <br>in the Software Engineering Bootcamp at Thinkful.</h2>
   </header>
 
   <div clas="info">
@@ -16,7 +16,7 @@ function aboutMeTemplate () {
     I like a challenge and the feeling of overcoming one is something that keeps me coming back.</p>
     <p>When I’m not coding, I am most likely working out or reading. As a workout, I like lifting weights or practicing Brazilian Jiu-Jitsu.
     For reading I like self-development/business books and manga.
-    And on occasion I relax watching anime, riding my motorcycle or going on long hikes.</p>
+    On occasion I relax watching anime, riding my motorcycle or going on long hikes.</p>
   </section>
 
   <section class="contact">
