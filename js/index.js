@@ -108,7 +108,7 @@ function closeNav(){
 }
 
 function handleView(){
-  $('nav').on('click','.about', function (event){
+  $('nav').on('click','.home', function (event){
     event.preventDefault();
     let view= 1;
     closeNav();

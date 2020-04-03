@@ -6,9 +6,10 @@ body {
   font-family:'Prata',
    serif;
   font-size: 20px;
-  color: #444;
+  color: #444444;
   line-height: 1.5;
   letter-spacing: .1em;
+  background-color: #EDF0F5
 }
 
 h1, h2, h3, h4{
@@ -31,7 +32,7 @@ header{
 }
 
 .circle{
-  border: darkgrey solid 1em;
+  border: #94CAF5 solid 1em;
   border-radius: 50%;
 }
 
@@ -121,13 +122,23 @@ nav {
   right: 0;
   z-index: 10;
   overflow: hidden;
-  background-color: #333;
+  background-color: #060E45;
   display: flex;
   flex-direction:column;
   justify-content: flex-start;
   align-items: flex-start;
   letter-spacing: .2em;
   min-height: 54px;
+}
+
+.about, .projects{
+  border: white solid 1px;
+  width: 100%;
+  margin:0;
+}
+
+ul{
+  width: 100%;
 }
 
 button.active{height: 54px;} 
@@ -149,11 +160,15 @@ button.active{height: 54px;}
 nav button {
   text-decoration: none;
   font-size: 20px;
+  font-weight: bolder;
   padding: 2px;
   background:none;
   border:none;
   cursor: pointer;
   margin-left: 10px;
+  padding: 0px 10px;
+  color: #F6D900;
+  letter-spacing: .1em;
 }
 
 nav button.icon {
@@ -204,9 +219,13 @@ nav button.icon {
   #myLinks{
     display: flex;
     flex-direction:row;
-    justify-content: center;
-    justify-self: flex-end;
+    justify-content: flex-end;
+    justify-self: middle;
     margin:0;
+  }
+
+  .about, .projects{
+    border: none;
   }
 
   nav button.icon {display: none;}
