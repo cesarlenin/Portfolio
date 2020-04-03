@@ -3,8 +3,8 @@
 }
 
 body {
-  font-family: "Open Sans",
-  sans-serif; 
+  font-family:'Prata',
+   serif;
   font-size: 20px;
   color: #444;
   line-height: 1.5;
@@ -21,7 +21,8 @@ h2, h3{
 
 p{
   font-size: 1rem; 
-  padding-right: 1rem
+  padding-right: 1rem;
+  font-family: proxima-nova, sans-serif;
 }
 
 header{
