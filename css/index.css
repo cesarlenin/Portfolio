@@ -69,7 +69,7 @@ section {
   justify-content: space-between;
 }
 
-.tech-icon {height: 1.7em;}
+.tech-icon {height: 50px;}
 
 .middle{vertical-align: middle;}
 
@@ -103,6 +103,8 @@ button.active{height: 54px;}
   padding: 0px;
   margin:0px;
 }
+
+
 
 nav button {
   text-decoration: none;
@@ -213,7 +215,7 @@ nav button.icon {
     margin: 2px;
   }
   main{
-  width: 75%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
   }
