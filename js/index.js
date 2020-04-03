@@ -79,9 +79,9 @@ function projectsTemplate () {
 
 
     <p>Quiz app is a game where users can test their knowledge.
-     The game track the user's current progression.
-      The game tracks whether the user has selected the correct or incorrect answer and will display that information after each question has been answered.
-      At the end the user will be provided with the information on how many questions they got correct and incorrect.</p>
+     The game tracks the user's current progression, as well as whether the user has selected the correct or incorrect answer.
+    Then it will display that information after each question has been answered. 
+    At the end the user will be provided with their score and how many questions they got correct or incorrect.</p>
     
     <div class="buttons">
       <a class="link-button" href="https://github.com/thinkful-ei-narwhal/Quiz-App_Cesar_Yousef" target="_blank">View Code</a>
