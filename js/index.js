@@ -27,7 +27,7 @@ function aboutMeTemplate () {
       <span>LinkedIn</span>  
     </a> 
 
-    <a class="contact-link" href="https://gist.github.com/cesarlenin" target="_blank">
+    <a class="contact-link" href="https://github.com/cesarlenin" target="_blank">
       <i class="fa fa-fw fa-2x fa-github middle"></i>
       <span>GitHub</span>  
     </a> 
