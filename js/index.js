@@ -121,6 +121,12 @@ function handleView(){
     closeNav();
     render(view);
   });
+
+  $('nav').on('click','.home', function (event){
+    event.preventDefault();
+    let view= 1;
+    render(view);
+  });
 }
 
 function render(view){
