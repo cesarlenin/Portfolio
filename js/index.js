@@ -11,12 +11,13 @@ function aboutMeTemplate () {
   <div clas="info">
   <section class="about-me">
     <h3>About me</h3>
-    <p>I love coding because the work I do is something I can proudly stamp my name on and feel proud about.
-    Encountering roadblocks and overcoming them gives me a sense of euphoria.
-    I like a challenge and the feeling of overcoming one is something that keeps me coming back.</p>
+    <p>I love coding because the work I do is something I can proudly stamp my name on.
+     Encountering roadblocks and overcoming them gives me a sense of euphoria.
+      I like a challenge. The bigger the struggle, the better.
+       It is what keeps me coming back.</p>
     <p>When I’m not coding, I am most likely working out or reading. As a workout, I like lifting weights or practicing Brazilian Jiu-Jitsu.
-    For reading I like self-development/business books and manga.
-    On occasion I relax watching anime, riding my motorcycle or going on long hikes.</p>
+     For reading, I like self-development or business books and manga.
+      On occasion, I relax watching anime, riding my motorcycle or going on long hikes.</p>
   </section>
 
   <section class="contact">
