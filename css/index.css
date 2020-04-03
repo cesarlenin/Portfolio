@@ -34,7 +34,6 @@ header{
   border-radius: 50%;
 }
 
-
 main{
   display: flex;
   flex-direction: column;
@@ -70,13 +69,9 @@ section {
   justify-content: space-between;
 }
 
-.tech-icon {
-  height: 1.7em;
-}
+.tech-icon {height: 1.7em;}
 
-.middle{
-  vertical-align: middle;
-}
+.middle{vertical-align: middle;}
 
 nav {
   text-align: left;
@@ -95,10 +90,7 @@ nav {
   min-height: 54px;
 }
 
-button.active{
-  height: 54px;
-} 
-
+button.active{height: 54px;} 
 
 .links {
   display: none;
@@ -129,10 +121,6 @@ nav button.icon {
   top: 5px;
   font-size: 30px;
   color: #EEEEEE;
-}
-
-nav button.icon i{
-  font-size: px;
 }
 
 .link-button{
