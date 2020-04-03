@@ -45,7 +45,7 @@ function projectsTemplate () {
   return `
   <header>
     <h1>Projects</h1>
-    <h2>Here is some of the work I done</h2>
+    <h2>Listed below are projects I've completed</h2>
   </header>
   <section class= "project">
 
@@ -78,9 +78,10 @@ function projectsTemplate () {
     </div> 
 
 
-    <p>Quiz app is a simple game where users can test their knowledge.
-    It tracks the current question and answer to provide feedback to the user.
-    That being the total score, the number of questions correct/incorrect and correct answer.</p>
+    <p>Quiz app is a game where users can test their knowledge.
+     The game track the user's current progression.
+      The game tracks whether the user has selected the correct or incorrect answer and will display that information after each question has been answered.
+      At the end the user will be provided with the information on how many questions they got correct and incorrect.</p>
     
     <div class="buttons">
       <a class="link-button" href="https://github.com/thinkful-ei-narwhal/Quiz-App_Cesar_Yousef" target="_blank">View Code</a>
