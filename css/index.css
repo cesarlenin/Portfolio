@@ -3,8 +3,7 @@
 }
 
 body {
-  font-family:'Prata',
-   serif;
+  font-family: 'Lora', serif;
   font-size: 20px;
   color: #000000;
   line-height: 1.5;
@@ -32,12 +31,14 @@ h2, h3{
   font-size: 1.5rem;
 }
 
-
+button{
+  font-family: 'Lora', serif;
+}
 
 p{
   font-size: 1rem; 
   padding-right: 1rem;
-  font-family: proxima-nova, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 header{
@@ -150,6 +151,7 @@ nav {
 
 .about, .projects{
   border: white solid 1px;
+  padding: 10px 10px;
   width: 100%;
   margin:0;
 }
