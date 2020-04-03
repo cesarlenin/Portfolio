@@ -196,7 +196,7 @@ nav button.icon {
   justify-content: center ;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 420px) {
   nav{
     display: flex;
     flex-direction: row;
@@ -253,8 +253,15 @@ nav button.icon {
     margin: 2px;
   }
   main{
-  width: 60%;
+  width: 85%;
   margin-left: auto;
   margin-right: auto;
   }
+}
+@media (min-width: 950px) {
+  main{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    }
 }
