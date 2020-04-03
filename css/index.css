@@ -55,18 +55,19 @@ section {
   padding: 4% 0;
 }
 
-.contact{
+.contact-link{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.contact-link{
   text-decoration: none;
   color: black;
-  width: 160px;
-  margin: 2px;
+  margin: 1px;
+  font-size: 18px;
+}
+
+.contact-links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .tech-icon {
@@ -195,7 +196,10 @@ nav button.icon i{
     width:75%;
     float: left;
   }
+
   .contact{
+    display: flex;
+    flex-direction: column;
     width:25%;
     float: right;
   }
@@ -205,11 +209,20 @@ nav button.icon i{
     flex-direction: column;
   }
 
-  .img{
-    align-self: center;
+  .img{align-self: center;}
+
+  .buttons{align-self: flex-start}
+
+  .contact-links{
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
   }
 
-  .buttons{
-    align-self: flex-start
+  .contact-link{
+    flex-direction: row;
+    width: 160px;
+    margin: 2px;
   }
+
 }

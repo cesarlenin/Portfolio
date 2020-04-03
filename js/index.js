@@ -21,6 +21,7 @@ function aboutMeTemplate () {
 
   <section class="contact">
     <h3>Contact</h3>
+    <div class="contact-links">
     <a class="contact-link" href="https://gist.github.com/cesarlenin" target="_blank">
       <i class="fa fa-fw fa-2x fa-linkedin-square middle" ></i>
       <span>LinkedIn</span>  
@@ -35,6 +36,7 @@ function aboutMeTemplate () {
       <i class="fa fa-fw fa-2x fa-envelope-square middle"></i>
       <span>Email</span>  
     </a>
+    </div>
   </section>
   <div>`;
 }
