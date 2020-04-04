@@ -36,7 +36,7 @@ function aboutMeTemplate () {
       <span>GitHub</span>  
     </a> 
 
-    <a class="contact-link" href="mailto:cesarlenin2@live.com" target="_blank">
+    <a class="contact-link" href="mailto:cesarlenin@protonmail.com" target="_blank">
       <i class="fa fa-fw fa-2x fa-envelope middle"></i>
       <span>Email</span>  
     </a>
