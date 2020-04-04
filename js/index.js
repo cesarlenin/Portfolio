@@ -15,8 +15,8 @@ function aboutMeTemplate () {
      Encountering roadblocks and overcoming them gives me a sense of euphoria.
       I like a challenge. The bigger the struggle, the better.
        It is what keeps me coming back.</p>
-    <p>When I’m not coding, I am most likely working out or reading. As a workout, I like lifting weights or practicing Brazilian Jiu-Jitsu.
-     For reading, I like self-development or business books and manga.
+    <p>When I’m not coding, I am most likely reading or exercising.
+     For reading, I like self-development or business books and manga. As a workout, I like lifting weights or practicing Brazilian Jiu-Jitsu.
       On occasion, I relax watching anime, riding my motorcycle or going on long hikes.</p>
   </section>
 
@@ -46,7 +46,7 @@ function projectsTemplate () {
   return `
   <header>
     <h1>Projects</h1>
-    <h2>Listed below are projects I've completed</h2>
+    <h2>Listed below are projects I've completed.</h2>
   </header>
   <section class= "project">
 
