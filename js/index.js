@@ -1,4 +1,7 @@
 'use strict';
+
+/** ******** TEMPLATE GENERATION FUNCTIONS **********/
+// These functions return HTML templates
 function aboutMeTemplate () {
   return `
   <header>
@@ -93,13 +96,27 @@ function projectsTemplate () {
     `;
 }
 
-function handleNav(){
-  $( '.icon').click(function(event) {
-    event.preventDefault();
-    closeNav();
-  });
+/** ******** RENDER FUNCTION(S) **********/
+
+// This function conditionally replaces the contents of the <main> tag
+function render(view){
+  if(!view){
+    view= 1;
+  }
+  $('main').html(choiceTemplate(view));
 }
 
+function choiceTemplate (view) {
+  if (view === 1) {
+    return aboutMeTemplate();
+  }else{
+    return projectsTemplate ();
+  } 
+}
+
+/** ******** NAVIGATION FUNCTION(S) **********/
+
+// This function conditionally replaces the class of myLinks
 function closeNav(){
   var x = document.getElementById('myLinks');
   if (x.className === 'links') {
@@ -107,6 +124,16 @@ function closeNav(){
   } else {
     x.className = 'links';
   }
+}
+
+/** ******** EVENT HANDLER FUNCTIONS **********/
+
+// These functions handle events (submit, click, etc)
+function handleNav(){
+  $( '.icon').click(function(event) {
+    event.preventDefault();
+    closeNav();
+  });
 }
 
 function handleView(){
@@ -129,21 +156,6 @@ function handleView(){
     let view= 1;
     render(view);
   });
-}
-
-function render(view){
-  if(!view){
-    view= 1;
-  }
-  $('main').html(choiceTemplate(view));
-}
-
-function choiceTemplate (view) {
-  if (view === 1) {
-    return aboutMeTemplate();
-  }else{
-    return projectsTemplate ();
-  } 
 }
 
 function handlePorfolio () {
