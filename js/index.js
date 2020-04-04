@@ -15,9 +15,9 @@ function aboutMeTemplate () {
   <section class="about-me">
     <h3>About me</h3>
     <p>I love coding because the work I do is something I can proudly stamp my name on.
-     Encountering roadblocks and overcoming them gives me a sense of euphoria.
-      I like a challenge. The bigger the struggle, the better.
-       It is what keeps me coming back.</p>
+     Encountering roadblocks and overcoming them gives me a sense of euphoria. I like a challenge.
+      The greater the struggle, the better. It is what keeps me coming back.
+       I want to be part of a team to tackle bigger projects and trade knowledge with other passionate people.</p>
     <p>When I’m not coding, I am most likely reading or exercising.
      For reading, I like self-development or business books and manga. As a workout, I like lifting weights or practicing Brazilian Jiu-Jitsu.
       On occasion, I relax watching anime, riding my motorcycle or going on long hikes.</p>
@@ -82,10 +82,11 @@ function projectsTemplate () {
     </div> 
 
 
-    <p>Quiz app is a game where users can test their knowledge.
+    <p>Quiz app is a game for anyone that wants to test their knowledge.
      The game tracks the user's current progression, as well as whether the user has selected the correct or incorrect answer.
-    Then it will display that information after each question has been answered. 
-    At the end the user will be provided with their score and how many questions they got correct or incorrect.</p>
+      Then it will display that information after each question has been answered.
+        At the end the user will be provided with their score and how many questions they got correct or incorrect.
+         I made this as a tool to help me study for future tests.</p>
     
     <div class="buttons">
       <a class="link-button" href="https://github.com/thinkful-ei-narwhal/Quiz-App_Cesar_Yousef" target="_blank">View Code</a>
